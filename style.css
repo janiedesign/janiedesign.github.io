@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #0026DD ;
+}
+
+h1{
+	color: #FFD44F;
+	font-family: 'Gloock';
+	font-size: 180px;
+	padding-top: 410px;
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Poppins';
+	font-size: 20px;
+	text-align: left;
+}
+
+a{
+	color: #FFFFFF;
+	font-family: 'Poppins';
+	font-size: 16px;
+}
+
+h2{
+	color: #FFD44F;
+	font-family: 'Gloock';
+	font-size: 90px;
+	padding-bottom: 8px;
+}
+
+h3{
+	color: #FFD44F;
+	font-family: 'Poppins';
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+nav{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+}
+
+nav a{
+	color: #FFD44F;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+nav a:hover{
+	color : #FFFFFF
+}
+
+.banniere p{
+	margin-bottom: 10px;
+	color: #FFD44F;
+	font-size: 35px;
+	text-align: right;
+}
+
+.btn1{
+	background: #FFD44F;
+	color: #FFFFFF;
+	padding: 20px 30px ;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 50px;
+	border: 2px solid #FFD44F;
+	transition: 0.4s;
+}
+
+.btn1:hover{
+	border: 2px solid #FFFFFF;
+}
+
+.banniere{
+	background-image: url(flash.jpg);
+	background-size: cover;
+	text-align: right;
+	padding-bottom: 100px;
+	padding-right: 10%;
+	padding-left: 10%;
+}	
+
+.about{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-right: 35%;
+	padding-left: 10%;
+}
+
+.projet{
+	background-color: #002CFF;
+	padding: 100px 10%;
+	text-align: center;
+}
+
+.grille{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+}
+
+
+.projet h4{
+	font-size: 25px;
+	font-family: 'Poppins';
+	color: #FFD44F;
+}
+
+.projet p{
+	font-family: 'Poppins';
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.contact{
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: left;
+}
+
+.site{
+	margin-bottom: 0px;
+}
+
+.nom{
+	margin-bottom: 30px;
+}
+
+
+footer{
+	background: FFD44F; 
+	color: #FFFFFF;
+	text-align: center;
+	padding: 15px 10px;
+}
+
+
+img{
+	max-width: 100%
+}
+
+
+
+
